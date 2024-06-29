@@ -3,6 +3,5 @@
 #include "functions.c"
 
 int main(){
-    x = sum(x);
-    printf("%d", x);
+    /*your code here*/
 }
