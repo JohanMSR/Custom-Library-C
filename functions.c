@@ -1,5 +1,6 @@
 /*Basic Functions*/
 #include <string.h>
+#include <stdio.h>
 
 int sum(int numb){
     numb++;
@@ -23,8 +24,16 @@ void printCharacters(char character[], int amount){
         printf("%s", character);
     }
 }
-
-
-
-
-
+char generateDate(int day, int month, int year){
+    char get_month[10];
+    switch (month)
+    {
+    case 1:
+        strcpy(get_month, "Ene");
+        break;
+    
+    default:
+        break;
+    }
+    printf("%d/ %s /%d", day, get_month, year);
+}
