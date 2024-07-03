@@ -37,3 +37,5 @@ char generateDate(int day, int month, int year){
     }
     printf("%d/ %s /%d", day, get_month, year);
 }
+
+//create
